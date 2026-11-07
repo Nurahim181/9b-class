@@ -1,2 +1,2 @@
-# 9b-class
-9-Б класстын сайты 
+# NURAHIM PRO — WEB STUDIO
+nurahim-pro-studio
