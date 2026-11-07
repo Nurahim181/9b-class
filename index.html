@@ -3,93 +3,104 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>NURAHIM PRO | Web Studio</title>
+<title>NURAHIM PRO — Web Studio</title>
 
 <style>
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: Arial, sans-serif;
-    background: #07111f;
-    color: white;
+  font-family: Arial, sans-serif;
+  background: #07111f;
+  color: white;
 }
 
 header {
-    padding: 25px;
-    text-align: center;
-    background: #101d30;
+  padding: 22px;
+  background: #101d30;
+  text-align: center;
+  position: sticky;
+  top: 0;
 }
 
 header h2 {
-    color: #42baff;
-    font-size: 28px;
+  color: #42baff;
+  font-size: 27px;
 }
 
 .hero {
-    text-align: center;
-    padding: 90px 20px;
-    background: linear-gradient(135deg,#07111f,#123c68);
+  text-align: center;
+  padding: 90px 20px;
+  background: linear-gradient(135deg,#07111f,#123c68);
 }
 
 .hero h1 {
-    font-size: 42px;
-    color: #42baff;
-    margin-bottom: 20px;
+  font-size: 42px;
+  color: #42baff;
+  margin-bottom: 20px;
 }
 
 .hero p {
-    font-size: 18px;
-    line-height: 1.6;
+  line-height: 1.7;
+  font-size: 17px;
 }
 
 .button {
-    display: inline-block;
-    margin-top: 25px;
-    padding: 15px 30px;
-    background: #168cff;
-    color: white;
-    text-decoration: none;
-    border-radius: 30px;
-    font-weight: bold;
+  display: inline-block;
+  margin-top: 20px;
+  padding: 14px 27px;
+  background: #168cff;
+  color: white;
+  text-decoration: none;
+  border-radius: 30px;
+  font-weight: bold;
 }
 
 section {
-    padding: 55px 20px;
-    text-align: center;
+  padding: 55px 20px;
+  text-align: center;
 }
 
 section h2 {
-    color: #42baff;
-    margin-bottom: 25px;
-    font-size: 30px;
+  color: #42baff;
+  margin-bottom: 25px;
+  font-size: 29px;
 }
 
 .card {
-    background: #14263c;
-    padding: 25px;
-    margin: 15px auto;
-    max-width: 450px;
-    border-radius: 18px;
+  background: #14263c;
+  padding: 27px;
+  margin: 15px auto;
+  max-width: 450px;
+  border-radius: 18px;
+  border: 1px solid #244567;
 }
 
 .card h3 {
-    margin-bottom: 12px;
-    color: #42baff;
+  color: #42baff;
+  margin-bottom: 15px;
 }
 
 .card p {
-    line-height: 1.6;
+  line-height: 1.7;
+  color: #ddd;
+}
+
+.price {
+  color: #42baff;
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: 15px;
 }
 
 footer {
-    background: #101d30;
-    text-align: center;
-    padding: 30px;
-    color: #aaa;
+  background: #101d30;
+  text-align: center;
+  padding: 30px;
+  color: #aaa;
 }
 </style>
 </head>
@@ -102,45 +113,86 @@ footer {
 
 <div class="hero">
 <h1>Келечекке кадам!</h1>
-<p>Сиздин бизнесиңиз үчүн заманбап сайттар жана өзгөчө ИИ видеолор.</p>
+<p>Сиздин бизнесиңиз үчүн заманбап сайттар<br>
+жана өзгөчө ИИ видеолор.</p>
 
 <a class="button" href="https://wa.me/996502420536">
-Байланышуу
+Заказ берүү
 </a>
 </div>
 
 <section>
-<h2>Мен жөнүндө</h2>
+<h2>👨‍💻 Мен жөнүндө</h2>
 <div class="card">
 <h3>Саламатсызбы!</h3>
-<p>Мен Нурахиммин. Мен заманбап сайттарды түзөм жана жасалма интеллект аркылуу кызыктуу видеолорду даярдайм.</p>
+<p>Мен Нурахиммин. Заманбап сайттарды түзөм
+жана жасалма интеллект аркылуу кызыктуу
+видеолорду даярдайм.</p>
 </div>
 </section>
 
 <section>
-<h2>Менин кызматтарым</h2>
+<h2>💼 Менин иштерим</h2>
+
+<div class="card">
+<h3>🌐 Бизнес сайттар</h3>
+<p>Дүкөндөр жана башка ишканалар үчүн сайттар.</p>
+</div>
+
+<div class="card">
+<h3>🎬 ИИ видеолор</h3>
+<p>Жасалма интеллект аркылуу даярдалган видеолор.</p>
+</div>
+
+<div class="card">
+<h3>🏫 Жеке долбоорлор</h3>
+<p>Жеке жана окуу долбоорлору үчүн сайттар.</p>
+</div>
+</section>
+
+<section>
+<h2>💰 Кызматтардын баалары</h2>
 
 <div class="card">
 <h3>💻 Сайт жасоо</h3>
-<p>Дүкөндөргө, кафелерге жана башка бизнестерге заманбап сайт жасайм.</p>
+<p>Сиздин бизнесиңиз үчүн заманбап сайт.</p>
+<div class="price">Баасы сүйлөшүү аркылуу</div>
 </div>
 
 <div class="card">
-<h3>🎬 ИИ видео</h3>
-<p>Жасалма интеллект аркылуу өзгөчө видеолорду даярдайм.</p>
+<h3>🎥 ИИ видео</h3>
+<p>Өзгөчө жана кызыктуу жасалма интеллект видеолору.</p>
+<div class="price">Баасы сүйлөшүү аркылуу</div>
 </div>
+</section>
+
+<section>
+<h2>⭐ Кардарлардын пикирлери</h2>
 
 <div class="card">
-<h3>📱 WhatsApp байланыш</h3>
-<p>Кызматтарга заказ берүү үчүн мага жазыңыз.</p>
-<a class="button" href="https://wa.me/996502420536">WhatsApp</a>
+<h3>Кардарлардын пикирлери</h3>
+<p>Бул бөлүмгө алгачкы кардарлардын
+чыныгы пикирлери кийин кошулат.</p>
 </div>
+</section>
 
+<section>
+<h2>📱 Байланышуу</h2>
+<div class="card">
+<h3>Сизге сайт керекпи?</h3>
+<p>Заказ берүү жана маалымат алуу үчүн WhatsApp аркылуу жазыңыз.</p>
+
+<a class="button"
+href="https://wa.me/996502420536">
+WhatsApp аркылуу жазуу
+</a>
+</div>
 </section>
 
 <footer>
-<p>© 2026 NURAHIM PRO</p>
-<p>Бардык укуктар корголгон.</p>
+<h3>NURAHIM PRO</h3>
+<p>Келечекке кадам!</p>
+<p>© 2026 Бардык укуктар корголгон.</p>
 </footer>
 
 </body>
